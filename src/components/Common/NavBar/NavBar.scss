@@ -1,0 +1,33 @@
+@import "styles/color_scheme.scss";
+@mixin flexBoxCenterSort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar {
+    width: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    &_links {
+        list-style: none;
+        &_icon {
+            margin-right: 2rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.facebook {
+    color: $blue_6;
+}
+.blog {
+    color: $green_6;
+}
+.instagram {
+    color: $gray_6;
+}
