@@ -8,6 +8,7 @@ function App() {
             <Route exact path="/">
                 <Pages.StartPage />
             </Route>
+            <Route exact path="/:category"></Route>
         </Router>
     )
 }

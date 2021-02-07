@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React, { useEffect, useRef } from "react"
 import "./Start.scss"
 import Button from "../Common/Button"
 import NavBar from "components/Common/NavBar"

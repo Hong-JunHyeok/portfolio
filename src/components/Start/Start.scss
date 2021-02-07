@@ -23,10 +23,13 @@
         line-height: 2rem;
         background-attachment: fixed;
         h1 {
+            text-shadow: 3px 3px 20px $blue_6 -2px 1px 30px #ff99cc;
+
             font-size: 28px;
             color: $gray_6;
             cursor: default;
             user-select: none;
+            font-weight: bold;
         }
         &_name {
             font-size: 36px;

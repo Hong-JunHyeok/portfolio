@@ -2,15 +2,30 @@
 .Button {
     padding: 1rem;
     background-color: $gray_6;
-    color: $white_1;
+    background: #12c2e9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #f64f59,
+        #c471ed,
+        #12c2e9
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #f64f59,
+        #c471ed,
+        #12c2e9
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: $white_2;
+    font-size: 28px;
     cursor: pointer;
     border-radius: 10px;
     user-select: none;
+    transition: ease-out 0.2s;
     &:hover {
-        box-shadow: $gray_5 1.95px 1.95px 2.6px;
+        transform: scale(1.1);
     }
     &:active {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-            rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        filter: brightness(0.8);
     }
 }
