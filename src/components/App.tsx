@@ -1,9 +1,15 @@
-import React from 'react';
+import { Pages } from "pages"
+import React from "react"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 function App() {
-  return (
-   <></>
-  );
+    return (
+        <Router>
+            <Route exact path="/">
+                <Pages.StartPage />
+            </Route>
+        </Router>
+    )
 }
 
-export default App;
+export default App

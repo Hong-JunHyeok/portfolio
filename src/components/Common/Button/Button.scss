@@ -1,0 +1,9 @@
+@import "styles/color_scheme.scss";
+.Button {
+    padding: 1rem;
+    background-color: $gray_6;
+    color: $white_1;
+    &:hover {
+        box-shadow: $gray_5 1.95px 1.95px 2.6px;
+    }
+}
