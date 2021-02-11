@@ -1,0 +1,135 @@
+@import "styles/color_scheme.scss";
+
+@mixin hoverScaling {
+    transition: ease-in-out 0.3s;
+    &:hover {
+        transform: scale(1.03);
+    }
+    a {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.Home {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: $white_2;
+    padding: 10px;
+    display: inline-block;
+    &_intro {
+        width: 100%;
+        border-radius: 20px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        cursor: pointer;
+        @include hoverScaling();
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 70%;
+        }
+        &_title {
+            font-size: 38px;
+            font-weight: bold;
+            &::after {
+                content: "도전하는 것을 좋아하며, 새로운 것을 찾아다니는걸 좋아하는 개발자입니다.";
+                font-weight: lighter;
+                display: block;
+                font-size: 16px;
+            }
+        }
+    }
+    &_tistory {
+        margin-top: 1rem;
+        flex: 1;
+        height: 500px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        text-align: end;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url("../../../assets/images/tistory.png");
+        background-attachment: fixed;
+        background-size: auto;
+        cursor: pointer;
+        @include hoverScaling();
+        &_title {
+            padding: 1rem;
+            background-color: $white_1;
+            font-weight: bold;
+            font-size: 38px;
+            &::after {
+                content: "저의 티스토리에서 다양한 소식을 접해보세요!";
+                font-weight: lighter;
+                display: block;
+                font-size: 16px;
+            }
+        }
+    }
+    &_github {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        flex: 1;
+        height: 500px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        text-align: end;
+        border-radius: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-image: url("../../../assets/images/github.png");
+        background-size: cover;
+        cursor: pointer;
+        @include hoverScaling();
+        &_title {
+            color: $white_2;
+            margin-top: 3rem;
+            font-size: 38px;
+            font-weight: bold;
+            &::after {
+                content: "다양한 프로젝트를 깃허브에서 관리한답니다!";
+                font-weight: lighter;
+                display: block;
+                font-size: 16px;
+            }
+        }
+    }
+    &_tistoryAndGithub {
+        display: flex;
+    }
+    &_facebook {
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: $blue_5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        @include hoverScaling();
+        &_title {
+            color: $white_2;
+            margin-top: 3rem;
+            font-size: 38px;
+            font-weight: bold;
+            position: absolute;
+            margin-bottom: 300px;
+            &::after {
+                content: "한번 놀러와보세요!";
+                font-weight: lighter;
+                display: block;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+}

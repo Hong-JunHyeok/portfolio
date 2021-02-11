@@ -1,0 +1,20 @@
+@import "styles/color_scheme.scss";
+
+.MainPage {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $gray_3;
+    &_navigator {
+        width: 100%;
+        height: 10vh;
+        background-color: $gray_5;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.link {
+    list-style: none;
+    color: $white_2;
+}

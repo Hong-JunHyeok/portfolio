@@ -1,4 +1,4 @@
-import React from "react"
+import React, { ButtonHTMLAttributes } from "react"
 import "./Button.scss"
 
 interface propsType {
@@ -8,9 +8,9 @@ interface propsType {
     textColor?: "white" | "black"
 }
 
-const Button = ({ text, customStyle }: propsType) => {
+const Button = ({ text, customStyle, onClick }) => {
     return (
-        <div className="Button" style={customStyle}>
+        <div className="Button" style={customStyle} onClick={onClick}>
             {text}
         </div>
     )

@@ -8,7 +8,9 @@ function App() {
             <Route exact path="/">
                 <Pages.StartPage />
             </Route>
-            <Route exact path="/:category"></Route>
+            <Route exact path="/:category">
+                <Pages.MainPage />
+            </Route>
         </Router>
     )
 }
