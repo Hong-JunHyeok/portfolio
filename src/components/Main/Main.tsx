@@ -3,6 +3,7 @@ import "./Main.scss"
 import Home from "./Home"
 import Projects from "./Projects"
 import History from "./History"
+import scrollTop from "util/scrollTop"
 
 interface propsType {
     location: string
@@ -10,7 +11,7 @@ interface propsType {
 
 function Main({ location }: propsType) {
     useEffect(() => {
-        window.scrollTo(0, 0)
+        scrollTop()
     }, [])
     return (
         <div className="MainPage">

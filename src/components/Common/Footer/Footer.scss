@@ -1,0 +1,30 @@
+@import "styles/color_scheme.scss";
+@import "styles/font.scss";
+
+.Footer {
+    width: 100%;
+    height: 20vh;
+    background-color: $gray_6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: AppleSDGothicNeoM;
+    &_myInfos {
+        list-style: none;
+        &_info {
+            color: $white_2;
+        }
+    }
+    &_copyright {
+        color: $white_2;
+        font-size: 12px;
+    }
+}
+
+.phoneNumber::before {
+    content: "전화번호 : ";
+}
+.email::before {
+    content: "이메일 : ";
+}

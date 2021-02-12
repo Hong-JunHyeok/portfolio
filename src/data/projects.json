@@ -1,50 +1,50 @@
 [
     {
-        "project_name": "테스트",
+        "project_name": "도담도담",
         "project_plarform": "web",
-        "project_image": "테스트",
-        "project_stack": ["테스트"],
-        "project_explanation": "테스트",
-        "project_productionPeriod": "YYYY-MM-YY~YYYY-MM-YY"
+        "project_image": "https://user-images.githubusercontent.com/48292190/107634907-9cc17c00-6cad-11eb-9e76-72ddec2703a1.png",
+        "project_stack": ["React", "Mobx", "Scss", "Axios"],
+        "project_explanation": "도담도담은 현재 대구소프트웨어고등학교에서 사용 중인 스마트 학생 생활 관리 시스템입니다.",
+        "project_productionPeriod": "2020-06~"
     },
     {
-        "project_name": "테스트1",
+        "project_name": "모도리",
         "project_plarform": "web",
-        "project_image": "테스트1",
-        "project_stack": ["테스트1", "테스트2"],
-        "project_explanation": "테스트1",
-        "project_productionPeriod": "YYYY-MM-YY~YYYY-MM-YY"
+        "project_image": "https://user-images.githubusercontent.com/48292190/107635757-05f5bf00-6caf-11eb-803c-0b6ae91c6a1a.png",
+        "project_stack": ["React", "Styled-components", "Axios"],
+        "project_explanation": "그림을 그리고 그림을 다른 사용자들과 공유하는 웹사이트입니다.",
+        "project_productionPeriod": "2020-09-23~2020-11-19"
     },
     {
-        "project_name": "테스트2",
-        "project_plarform": "server",
-        "project_image": "테스트2",
-        "project_stack": ["테스트2", "테스트3"],
-        "project_explanation": "테스트2qwejqwkejnwqekjqwnekjwaksdjaskjfbqowieoihoi",
-        "project_productionPeriod": "YYYY-MM-YY~YYYY-MM-YY"
-    },
-    {
-        "project_name": "테스트3",
-        "project_plarform": "mobile",
-        "project_image": "테스트3",
-        "project_stack": ["테스트3", "테스트4"],
-        "project_explanation": "테스트3",
-        "project_productionPeriod": "YYYY-MM-YY~YYYY-MM-YY"
-    },
-    {
-        "project_name": "테스트",
+        "project_name": "Nomad TodoList",
         "project_plarform": "web",
-        "project_image": "테스트",
-        "project_stack": ["테스트"],
-        "project_explanation": "테스트",
-        "project_productionPeriod": "YYYY-MM-YY~YYYY-MM-YY"
+        "project_image": "https://user-images.githubusercontent.com/48292190/107640990-60464e00-6cb6-11eb-892c-abf7dc66aa45.png",
+        "project_stack": ["Vanilla JS", "CSS", "HTML"],
+        "project_explanation": "노마드코더 ToDoList콘테스트 출품작입니다.",
+        "project_productionPeriod": "2021-02-03~2021-02-04"
     },
     {
-        "project_name": "테스트",
+        "project_name": "유튜브 클론코딩",
         "project_plarform": "web",
-        "project_image": "테스트",
-        "project_stack": ["테스트"],
-        "project_explanation": "테스트",
-        "project_productionPeriod": "YYYY-MM-YY~YYYY-MM-YY"
+        "project_image": "https://user-images.githubusercontent.com/48292190/107642354-1b231b80-6cb8-11eb-9762-2433bc702335.png",
+        "project_stack": ["Vanilla JS", "HTML", "CSS"],
+        "project_explanation": "드림코딩 엘리님의 유튜브 클론코딩입니다.",
+        "project_productionPeriod": "2021-02-04~2021-02-04"
+    },
+    {
+        "project_name": "Today's Joke",
+        "project_plarform": "web",
+        "project_image": "https://user-images.githubusercontent.com/48292190/107640396-90412180-6cb5-11eb-8780-545da763e887.png",
+        "project_stack": ["React", "Axios"],
+        "project_explanation": "랜덤으로 농담 하나를 보여주는 웹사이트입니다.(농담 재미없음 주의...!)",
+        "project_productionPeriod": "2021-10"
+    },
+    {
+        "project_name": "자기소개 웹사이트",
+        "project_plarform": "web",
+        "project_image": "https://user-images.githubusercontent.com/48292190/107642984-eb284800-6cb8-11eb-9e50-8e4468b086ff.png",
+        "project_stack": ["HTML", "CSS"],
+        "project_explanation": "2020 대구소프트웨어 전공역량강화에서 만든 자기소개 웹사이트입니다.",
+        "project_productionPeriod": "2021-12"
     }
 ]

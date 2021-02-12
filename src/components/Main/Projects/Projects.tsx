@@ -26,19 +26,23 @@ export default function Projects() {
                     <option value="server">Server</option>
                 </select>
             </div>
-            <div className="Projects_projectsDiv">
-                {filteredProjectState.map((element: projectType, index: number) => (
-                    <ProjectCard
-                        key={index}
-                        project_name={element.project_name}
-                        project_explanation={element.project_explanation}
-                        project_image={element.project_image}
-                        project_plarform={element.project_plarform}
-                        project_productionPeriod={element.project_productionPeriod}
-                        project_stack={element.project_stack}
-                    />
-                ))}
-            </div>
+            {filteredProjectState.length === 0 ? (
+                <div className="nothing">아무 프로젝트도 없네요...</div>
+            ) : (
+                <div className="Projects_projectsDiv">
+                    {filteredProjectState.map((element: projectType, index: number) => (
+                        <ProjectCard
+                            key={index}
+                            project_name={element.project_name}
+                            project_explanation={element.project_explanation}
+                            project_image={element.project_image}
+                            project_plarform={element.project_plarform}
+                            project_productionPeriod={element.project_productionPeriod}
+                            project_stack={element.project_stack}
+                        />
+                    ))}
+                </div>
+            )}
         </div>
     )
 }

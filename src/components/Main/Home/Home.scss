@@ -1,4 +1,5 @@
 @import "styles/color_scheme.scss";
+@import "styles/font.scss";
 
 @mixin hoverScaling {
     transition: ease-in-out 0.3s;
@@ -12,6 +13,7 @@
 }
 
 .Home {
+    font-family: AppleSDGothicNeoM;
     box-sizing: border-box;
     width: 100%;
     background-color: $white_2;
@@ -26,8 +28,6 @@
         justify-content: space-around;
         background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        cursor: pointer;
-        @include hoverScaling();
         img {
             width: 250px;
             height: 250px;
