@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.44db8938.chunk.css",
+    "main.js": "/portfolio/static/js/main.d576b425.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d576b425.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4f7100e2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4f7100e2.js.map",
+    "static/js/2.40f61c6f.chunk.js": "/portfolio/static/js/2.40f61c6f.chunk.js",
+    "static/js/2.40f61c6f.chunk.js.map": "/portfolio/static/js/2.40f61c6f.chunk.js.map",
+    "static/js/3.385e6426.chunk.js": "/portfolio/static/js/3.385e6426.chunk.js",
+    "static/js/3.385e6426.chunk.js.map": "/portfolio/static/js/3.385e6426.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.44db8938.chunk.css.map": "/portfolio/static/css/main.44db8938.chunk.css.map",
+    "static/js/2.40f61c6f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.40f61c6f.chunk.js.LICENSE.txt",
+    "static/media/HistoryItem.scss": "/portfolio/static/media/AppleSDGothicNeoM.88c00162.ttf",
+    "static/media/Home.scss": "/portfolio/static/media/tistory.ddec30b0.png",
+    "static/media/intro_1.ec854937.jpeg": "/portfolio/static/media/intro_1.ec854937.jpeg",
+    "static/media/Start.scss": "/portfolio/static/media/intro_5.2a407a63.jpg",
+    "static/media/History.scss": "/portfolio/static/media/last.702078e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f7100e2.js",
+    "static/js/2.40f61c6f.chunk.js",
+    "static/css/main.44db8938.chunk.css",
+    "static/js/main.d576b425.chunk.js"
+  ]
+}
