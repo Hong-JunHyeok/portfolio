@@ -1,7 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import "styles/color_scheme.scss";
 .histories {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.last_history {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../../assets/images/last.png");
+    background-size: cover;
+    &::before {
+        content: "길을 아는 것과그 길을 걷는 것은분명히 다르다.";
+        font-family: "Nanum Myeongjo", serif;
+        font-size: 30px;
+        padding-bottom: 0.4em;
+        color: $teal_6;
+    }
+    &::after {
+        content: "성장할 것을 알고있기에 힘차게 걸어나가는 개발자가 되겠습니다.";
+        color: $white_2;
+    }
 }
