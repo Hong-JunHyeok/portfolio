@@ -1,5 +1,13 @@
 [
     {
+        "project_name": "코로나 뷰어",
+        "project_plarform": "web",
+        "project_image": "https://user-images.githubusercontent.com/48292190/107874416-f8357900-6efc-11eb-8c5a-8b0adeb3ae19.png",
+        "project_stack": ["React", "Recoil", "Scss", "Axios"],
+        "project_explanation": "전국 코로나 현황을 보여주는 웹사이트입니다.",
+        "project_productionPeriod": "2021-2-14~2021-2-14"
+    },
+    {
         "project_name": "도담도담",
         "project_plarform": "web",
         "project_image": "https://user-images.githubusercontent.com/48292190/107634907-9cc17c00-6cad-11eb-9e76-72ddec2703a1.png",

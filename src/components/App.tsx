@@ -2,9 +2,11 @@ import { Pages } from "pages"
 import React from "react"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
+const basename = "/portfolio"
+
 function App() {
     return (
-        <Router>
+        <Router basename={basename}>
             <Route exact path="/">
                 <Pages.StartPage />
             </Route>

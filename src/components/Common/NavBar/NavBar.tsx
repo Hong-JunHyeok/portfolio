@@ -11,9 +11,27 @@ const NavBar = ({ isMain }: propsType) => {
     return (
         <div className="NavBar">
             <li className="NavBar_links">
-                <AiFillGithub className="NavBar_links_icon" size={30} />
-                <AiFillFacebook className="NavBar_links_icon facebook" size={30} />
-                <FaBlog className="NavBar_links_icon blog" size={30} />
+                <AiFillGithub
+                    className="NavBar_links_icon"
+                    size={30}
+                    onClick={() => {
+                        window.open("https://github.com/Hong-JunHyeok", "_blank")
+                    }}
+                />
+                <AiFillFacebook
+                    className="NavBar_links_icon facebook"
+                    size={30}
+                    onClick={() => {
+                        window.open("https://www.facebook.com/programmingHong/", "_blank")
+                    }}
+                />
+                <FaBlog
+                    className="NavBar_links_icon blog"
+                    size={30}
+                    onClick={() => {
+                        window.open("https://hong-jh.tistory.com/", "_blank")
+                    }}
+                />
                 <AiFillInstagram className="NavBar_links_icon instagram" size={30} />
             </li>
             {isMain && (
