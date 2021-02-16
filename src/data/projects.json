@@ -1,9 +1,17 @@
 [
     {
+        "project_name": "트렌스피",
+        "project_plarform": "web",
+        "project_image": "https://user-images.githubusercontent.com/48292190/107934891-f5518b80-6fc3-11eb-8a4b-8916494d99d9.png",
+        "project_stack": ["React", "KakaoAPI", "Styled-components", "Axios", "prop-types"],
+        "project_explanation": "19개의 언어를 번역할 수 있는 강력한 프로그램!",
+        "project_productionPeriod": "2021-2-15~2021-2-15"
+    },
+    {
         "project_name": "코로나 뷰어",
         "project_plarform": "web",
         "project_image": "https://user-images.githubusercontent.com/48292190/107874416-f8357900-6efc-11eb-8c5a-8b0adeb3ae19.png",
-        "project_stack": ["React", "Recoil", "Scss", "Axios", "typescript"],
+        "project_stack": ["React", "Recoil", "Scss", "Axios", "Typescript"],
         "project_explanation": "전국 코로나 현황을 보여주는 웹사이트입니다.",
         "project_productionPeriod": "2021-2-14~2021-2-14"
     },
@@ -38,6 +46,14 @@
         "project_stack": ["Vanilla JS", "HTML", "CSS"],
         "project_explanation": "드림코딩 엘리님의 유튜브 클론코딩입니다.",
         "project_productionPeriod": "2021-02-04~2021-02-04"
+    },
+    {
+        "project_name": "스타벅스 쇼핑 프로그램",
+        "project_plarform": "web",
+        "project_image": "https://user-images.githubusercontent.com/48292190/108025460-dad1ed80-7069-11eb-952b-7850f8eab33c.png",
+        "project_stack": ["React", "Redux", "Class101-ui", "Styled-components", "typescript"],
+        "project_explanation": "스타벅스 커피를 담고 구매해보세요!",
+        "project_productionPeriod": "2021-01-25~2021-01-25"
     },
     {
         "project_name": "Today's Joke",
